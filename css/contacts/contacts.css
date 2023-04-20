@@ -8,6 +8,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+    cursor: pointer;
 }
 
 .contacts__item {
@@ -45,6 +46,7 @@
 
 .contacts__icon {
     color: white;
+    transition: 1s;
 }
 
 .contacts__icon:hover {
@@ -56,5 +58,9 @@
 }
 
 .contacts__icon:active {
+    color: #CD06FF;
+}
+
+.contacts__info:hover {
     color: #CD06FF;
 }

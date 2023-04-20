@@ -8,6 +8,7 @@
     list-style-type: none;
     position: relative;
     align-items: center;
+    transition: 1s;
 }
 
 .questions__item:last-child {
@@ -46,6 +47,7 @@
     position: absolute;
     right: 60px;
     top: 20px;
+    transition: 1s;
 }
 
 .questions__icon--purple {
@@ -55,6 +57,8 @@
     position: absolute;
     right: 60px;
     top: 20px;
+    transition: 1s;
+
 }
 
 .questions__icon:hover {

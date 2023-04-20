@@ -130,6 +130,7 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
     border: transparent;
+    transition: 1s;
 }
 
 .header__button-btn2 {
@@ -143,6 +144,7 @@ header {
     z-index: 2;
     top: 660px;
     color: white;
+    transition: 1s;
 }
 
 .header__i {
@@ -159,6 +161,10 @@ header {
     color: inherit;
     top: 37px;
     right: 41px;
+}
+
+.header__link-call {
+    transition: 0.8s;
 }
 
 .header__link-call:hover {
@@ -206,6 +212,6 @@ header {
     color: #6C0287;
 }
 
-/* .header__i:hover , .header__i-two:hover {
+.header__item:hover {
     color: #6C0287;
-} */
+}

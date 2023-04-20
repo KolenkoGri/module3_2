@@ -42,6 +42,7 @@
     padding: 7px 15px;
     border-radius: 8px;
     border: 3px solid white;
+    transition: 1s;
 }
 
 .booking__funs {
@@ -69,11 +70,11 @@
     vertical-align: bottom;
 }
 
-.booking__label {
+/* .booking__label {
     font-size: 22px;
     line-height: 25px;
     height: 40px;
-}
+} */
 
 .booking__label:not(:last-child) {
     margin-bottom: 20px;
@@ -93,6 +94,7 @@
     width: 134px;
     height: 52px;
     padding: 12px 20px;
+    transition: 1s;
 }
 
 .booking__legend {
@@ -134,6 +136,7 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 125px;
+    transition: 1s;
 }
 
 .booking__legend--arrow {
@@ -163,6 +166,7 @@
 
 .booking__btn:active {
     background-color: #6C0287;
+    color: white;
     border: 3px solid #FFFFFF;
 }
 

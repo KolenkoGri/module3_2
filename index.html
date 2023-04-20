@@ -19,19 +19,19 @@
                                 <img class="header__image" src="css/header/image/logo.svg" alt="Логотип компании GO">
                             </li>
                             <li class="header__item">
-                                <a class="header__link" href="#"> залы</a>
+                                <a class="header__link" href="#halls"> залы</a>
                             </li>
                             <li class="header__item">
-                                <a class="header__link" href="#"> О нас</a>
+                                <a class="header__link" href="#about"> О нас</a>
                             </li>
                             <li class="header__item">
-                                <a class="header__link" href="#"> Бронь</a>
+                                <a class="header__link" href="#booking"> Бронь</a>
                             </li>
                             <li class="header__item">
-                                <a class="header__link" href="#"> отзывы</a>
+                                <a class="header__link" href="#request"> отзывы</a>
                             </li>
                             <li class="header__item header__item-margin">
-                                <a class="header__link" href="#"> Контакты</a>
+                                <a class="header__link" href="#contacts"> Контакты</a>
                             </li>
                             <li class="header__item ">
                                 <a class="header__link header__link-call " href="#call"> Заказать звонок</a>
@@ -48,15 +48,15 @@
                             <p class="header__text header__text-newest">Новейшая аппаратура</p>
                         </div>
                         <button class="header__button header__button-btn">Забронировать</button>
-                        <button class="header__button header__button-btn2">
+                        <a class="header__button header__button-btn2" href="#our">
                             <p class="header__i"> I </p>
                             <p class="header__i-two">I </p>
-                        </button>
+                        </a>
                     </div>
                 </div>
         </header>
         <main>
-            <section class="our">
+            <section class="our" id="our">
                 <div class="container">
                     <h2 class="our__title container__title">У нас есть все для классного <br> отдыха с друзьями!</h2>
                     <div class="our__container">
@@ -82,7 +82,7 @@
                 </div>
 
             </section>
-            <section class="halls">
+            <section class="halls" id="halls">
                 <div class="container">
                     <h2 class="halls__title container__title">Наши залы</h2>
                     <div class="halls__item halls__item-one">
@@ -99,7 +99,7 @@
                     </div>   
                 </div>
             </section>
-            <section class="booking">
+            <section class="booking" id="booking">
                 <div class="container">
                     <form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" id="my-form" method="post">
                         <h2 class="booking__main container__title">Забронировать зал просто</h2>
@@ -116,16 +116,16 @@
                             <fieldset class="booking__play-table">
                                 <legend class="booking__title">Приставка</legend>
                                 <label class="booking__label" for="PlayStation">
-                                    <input class="booking__radio" type="radio" name="game_console" value="PlayStation">PlayStation
+                                    <input class="booking__radio" type="radio" name="game_console" id="PlayStation" value="PlayStation">PlayStation
                                 </label>
                                 <label class="booking__label" for="Sega Mega Drive">
-                                    <input class="booking__radio" type="radio" name="game_console" value="Sega Mega Drive">Sega Mega Drive
+                                    <input class="booking__radio" type="radio" name="game_console" id="Sega Mega Drive" value="Sega Mega Drive">Sega Mega Drive
                                 </label>
                                 <label class="booking__label" for="X-Box One S">
-                                    <input class="booking__radio" type="radio" name="game_console" value="X-Box One S">X-Box One S
+                                    <input class="booking__radio" type="radio" name="game_console" id="X-Box One S" value="X-Box One S">X-Box One S
                                 </label>
                                 <label class="booking__label" for="Dendy">
-                                    <input class="booking__radio" type="radio" name="game_console" value="Dendy">Dendy
+                                    <input class="booking__radio" type="radio" name="game_console" id="Dendy" value="Dendy">Dendy
                                 </label>
                             </fieldset>
                         
@@ -133,27 +133,27 @@
                             <fieldset class="booking__play-table">
                                 <legend class="booking__title">Настольные игры</legend>
                                 <label for="Jenga" class="booking__label">
-                                    <input class="booking__checkbox" type="checkbox" name="table_games" value="Jenga">Jenga
+                                    <input class="booking__checkbox" type="checkbox" name="table_games" id="Jenga" value="Jenga">Jenga
                                 </label>
                                 <label for="Monopoly" class="booking__label">
-                                    <input class="booking__checkbox" type="checkbox" name="table_games" value="Monopoly">Monopoly
+                                    <input class="booking__checkbox" type="checkbox" name="table_games" id="Monopoly" value="Monopoly">Monopoly
                                 </label>
                                 <label for="Manchkin" class="booking__label">
-                                    <input class="booking__checkbox" type="checkbox" name="table_games" value="Manchkin">Манчкин
+                                    <input class="booking__checkbox" type="checkbox" name="table_games" id="Manchkin" value="Manchkin">Манчкин
                                 </label>
                                 <label for="Alias" class="booking__label">
-                                    <input class="booking__checkbox" type="checkbox" name="table_games" value="Alias">Alias
+                                    <input class="booking__checkbox" type="checkbox" name="table_games" id="Alias" value="Alias">Alias
                                 </label>
                             </fieldset>
 
                             <fieldset class="booking__play-table">
                                 <legend class= "booking__title">Дополнительно</legend>
                                 <label for="Karaoke" class="booking__label">
-                                    <input class="booking__checkbox" type="checkbox" name="extra" value="Karaoke">Караоке
+                                    <input class="booking__checkbox" type="checkbox" name="extra" id="Karaoke" value="Karaoke">Караоке
                                 </label>
                                 <label for="VR" class="booking__label">
-                                    <input class="booking__checkbox" type="checkbox" name="extra" value="VR">VR
-                                </label>
+                                    <input class="booking__checkbox" type="checkbox" name="extra" id="VR" value="VR">VR
+                                </label>    
                             </fieldset>
                         </fieldset>
 
@@ -187,7 +187,7 @@
                     </form>
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="container">
                     <h2 class="about__title container__title">О нас</h2>
                     <div class="about__container">
@@ -207,7 +207,7 @@
                     </div>
                 </div>
             </section>
-            <section class="request">
+            <section class="request" id="request">
                 <div class="container">
                     <h2 class="request__title container__title">Отзывы посетителей</h2>
                     <figure class="request__figure">
@@ -273,14 +273,14 @@
                 </div>
             </section>
         </main>
-        <footer class="contacts">
+        <footer class="contacts" id="contacts">
             <div class="container">
                 <h2 class="contacts__title container__title">Контакты</h2>
                 <div class="contacts__all">
                     <div class="contacts__information">
                         <div class="contacts__locate">
                             <img class="contacts__img" src="css/contacts/image/location.svg" alt="Адрес на карте" width="35px" height="32px">
-                            <p class="contacts__info">г. Москва <br>  ул.Аквамарина, 16</p>
+                            <a class="contacts__info">г. Москва <br>  ул.Аквамарина, 16</a>
                         </div>
                         
                         <div class="contacts__locate">
